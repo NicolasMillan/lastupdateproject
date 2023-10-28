@@ -1,0 +1,107 @@
+@{
+    ViewData["Title"] = "My Project Brief";
+}
+<h1>@ViewData["title"]</h1>
+
+<body>
+
+    <header>
+        <div class=title2>Scam Store</div>
+        <br>
+
+        <h2>Company Desciption</h2>
+        <div class="Company Desc">
+            this company is super trust worthy and has very
+            reliable support staff to consistantly help you a moments notice
+        </div>
+        <br>
+
+        <h2>Group members</h2>
+        <h3>Full Stack Dev: Weston Smith</h3>
+        <h3>Full Stack Dev: Nicolas Millan</h3>
+
+    </header>
+
+    <br>
+    <section id="sectionOne">
+
+
+        <div>
+            <h2>Proposal</h2>
+            <p>
+                This company is very humble all it wants is your social insurence
+                information and the site will prompt you various times to put
+                in senstitive
+                information about yourself.
+            </p>
+
+            <h2>Products</h2>
+            <li>1. A questionaire that will ask you many different questions that will
+                leave you peniless
+            </li>
+
+            <li>
+                2. we have a dedicated service that will track all the data you have so
+                you never leave anything out
+            </li>
+
+            <li>
+                3. this is a pair of glasses with little cameras in it to rewatch your favorite
+                parts of life
+            </li>
+
+            <br>
+            <br>
+
+            <h2>Industry Needs</h2>
+            <p>The role this company is fufilling will be security because in today's day and world it is very obvious
+                that none of us
+                are safe from the deep depths of the world wide web
+            </p>
+            <br>
+        </div>
+        <img src="./img/SecureImg.jpg" class="Img1" alt="Security" asp-append-version="true">
+
+    </section>
+
+    <footer>
+        <h2>Staff</h2>
+        <p>We will need various staff to monitor the services we have like our tracking website
+            which will need coding staff to monitor and record data for security purposes
+            we will also need people with linguistic skills to make new questionares and
+            people to take answers and store them on other servers safely very far away
+            from you.
+        </p>
+        <br>
+        <br>
+        <section>
+            <form action="process_form.php" method="POST" class="Section-Form">
+                <p>SIN "Validator"</p>
+                <label for="name">SIN:</label>
+                <input type="text" id="name" name="name" required>
+
+                <div class="Validator">
+                    <p>Card "Validator"</p>
+                    <p>a quick and easy way to check if your card is valid input all sensitive information below, jut
+                        for a small fee of 15'000$</p>
+
+                    <label for="email"> Card #:</label>
+                    <input type="email" id="email" name="em`ail" placeholder="4519025679483162" required>
+
+                    <label for="email">Expiration Date :</label>
+                    <input type="email" id="email" name="text" placeholder="00/00" required>
+
+                    <label for="email">CVC #:</label>
+                    <input type="email" id="email" name="text" placeholder="123" required>
+
+                    <label for="message">Concerns About Your Internet Privacy :</label>
+                    <textarea id="message" name="message" rows="4" placeholder="write any concerns or comments here and we will gladly not look at them." required></textarea>
+                </div>
+
+
+                <input type="submit" value="Submit" class="Button">
+            </form>
+        </section>
+    </footer>
+
+</body>
